@@ -1,0 +1,14 @@
+{
+  "name": "next-pino",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Khaer Ansori <khaer.ansori@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khaeransori/next-pino"
+  },
+  "peerDependencies": {
+    "pino": "^4.13.0"
+  }
+}
