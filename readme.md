@@ -21,7 +21,7 @@ Create a `next.config.js` in your project
 ```js
 // next.config.js
 const withPino = require("next-pino");
-module.exports = withConfig();
+module.exports = withPino();
 ```
 
 Create a logger file `utils/logger/JsonLogger.js`
@@ -49,7 +49,7 @@ Optionally you can add your custom Next.js configuration as parameter
 ```js
 // next.config.js
 const withPino = require("next-pino");
-module.exports = withConfig({
+module.exports = withPino({
   webpack(config, options) {
     return config;
   }
